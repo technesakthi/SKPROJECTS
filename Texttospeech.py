@@ -17,7 +17,7 @@ def stop_audio():
     pygame.mixer.music.stop()
 root = tk.Tk()
 root.title("Text-to-Speech Converter (SK)")
-entry_label = tk.Label(root, text="Enter text:")
+entry_label = tk.Label(root, text=" [Google Sister voice]\nEnter text:")
 entry_label.pack(pady=10)
 entry = tk.Entry(root, width=60)
 entry.pack(pady=10)
