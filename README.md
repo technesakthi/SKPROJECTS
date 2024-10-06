@@ -1,5 +1,5 @@
 # 💫 About Me:
-~i am currently persuming ECE<br>~Python developer<br>
+~I am currently persuming ECE<br>~Python developer<br>
 
 
 ## 🌐 Socials:
