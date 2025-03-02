@@ -1,0 +1,59 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "largestpalindrome",
+      "request": "launch",
+      "mainClass": "largestpalindrome",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "reverseklastdigits",
+      "request": "launch",
+      "mainClass": "reverseklastdigits",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "anagramno",
+      "request": "launch",
+      "mainClass": "anagramno",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "findgreatdigits",
+      "request": "launch",
+      "mainClass": "findgreatdigits",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "digicount",
+      "request": "launch",
+      "mainClass": "digicount",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/SKPROJECTS/SKPROJECTS/Weathersense",
+      "program": "c:/SKPROJECTS/SKPROJECTS/Weathersense/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
