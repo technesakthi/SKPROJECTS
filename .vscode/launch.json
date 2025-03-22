@@ -3,6 +3,307 @@
   "configurations": [
     {
       "type": "java",
+      "name": "sparsematrix",
+      "request": "launch",
+      "mainClass": "sparsematrix",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "sumofuppertriangle",
+      "request": "launch",
+      "mainClass": "sumofuppertriangle",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "sumofminordiag",
+      "request": "launch",
+      "mainClass": "sumofminordiag",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "sumofmajordiag",
+      "request": "launch",
+      "mainClass": "sumofmajordiag",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "sumofcolumn",
+      "request": "launch",
+      "mainClass": "sumofcolumn",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "sumofrows",
+      "request": "launch",
+      "mainClass": "sumofrows",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "searchele",
+      "request": "launch",
+      "mainClass": "searchele",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "countzerorow",
+      "request": "launch",
+      "mainClass": "countzerorow",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "identical",
+      "request": "launch",
+      "mainClass": "identical",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "threesortarr",
+      "request": "launch",
+      "mainClass": "threesortarr",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "multiplication",
+      "request": "launch",
+      "mainClass": "multiplication",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "rotatetwoseventy",
+      "request": "launch",
+      "mainClass": "rotatetwoseventy",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "rotateoneeighty",
+      "request": "launch",
+      "mainClass": "rotateoneeighty",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "rotateninety",
+      "request": "launch",
+      "mainClass": "rotateninety",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "difftranspose",
+      "request": "launch",
+      "mainClass": "difftranspose",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "boundary",
+      "request": "launch",
+      "mainClass": "boundary",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "lowerrightsum",
+      "request": "launch",
+      "mainClass": "lowerrightsum",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "identity",
+      "request": "launch",
+      "mainClass": "identity",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "toplitz",
+      "request": "launch",
+      "mainClass": "toplitz",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "transpose",
+      "request": "launch",
+      "mainClass": "transpose",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "rotate",
+      "request": "launch",
+      "mainClass": "rotate",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "unique",
+      "request": "launch",
+      "mainClass": "unique",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "deletion",
+      "request": "launch",
+      "mainClass": "deletion",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "largestsmallest",
+      "request": "launch",
+      "mainClass": "largestsmallest",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "insertion",
+      "request": "launch",
+      "mainClass": "insertion",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "search",
+      "request": "launch",
+      "mainClass": "search",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "biotonic",
+      "request": "launch",
+      "mainClass": "biotonic",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "monotonictwomethod",
+      "request": "launch",
+      "mainClass": "monotonictwomethod",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "monotonic",
+      "request": "launch",
+      "mainClass": "monotonic",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "remuniqueelem",
+      "request": "launch",
+      "mainClass": "remuniqueelem",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "multipprenext",
+      "request": "launch",
+      "mainClass": "multipprenext",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "countzcon",
+      "request": "launch",
+      "mainClass": "countzcon",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "majorityelement",
+      "request": "launch",
+      "mainClass": "majorityelement",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "replacesumother",
+      "request": "launch",
+      "mainClass": "replacesumother",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "replaceleftarr",
+      "request": "launch",
+      "mainClass": "replaceleftarr",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "oddevenarr",
+      "request": "launch",
+      "mainClass": "oddevenarr",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "sumarr",
+      "request": "launch",
+      "mainClass": "sumarr",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "remduplicates",
+      "request": "launch",
+      "mainClass": "remduplicates",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "patteren",
+      "request": "launch",
+      "mainClass": "patteren",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "remduplictae",
+      "request": "launch",
+      "mainClass": "remduplictae",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "Superprime",
+      "request": "launch",
+      "mainClass": "Superprime",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "diamondpatteren",
+      "request": "launch",
+      "mainClass": "diamondpatteren",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "remduplicate",
+      "request": "launch",
+      "mainClass": "remduplicate",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
       "name": "largestpalindrome",
       "request": "launch",
       "mainClass": "largestpalindrome",

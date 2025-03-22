@@ -19,8 +19,7 @@ public class reverseklastdigits {
             re/=10;
             
         }
-        ans=(fs*pow)+rem;
-        
+        ans=(fs*pow)+rem; 
         System.out.println(ans);
 
 
