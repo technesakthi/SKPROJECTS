@@ -3,6 +3,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "herosvillian",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.hackwithinfy.herosvillian",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "exercise",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.hackwithinfy.exercise",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "rotatespecified",
+      "request": "launch",
+      "mainClass": "rotatespecified",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "duplicatearray",
+      "request": "launch",
+      "mainClass": "duplicatearray",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "rotatesechalftoleft",
+      "request": "launch",
+      "mainClass": "rotatesechalftoleft",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "minimumswap",
+      "request": "launch",
+      "mainClass": "minimumswap",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
+      "name": "oddevenseg",
+      "request": "launch",
+      "mainClass": "oddevenseg",
+      "projectName": "SKPROJECTS_c0809a77"
+    },
+    {
+      "type": "java",
       "name": "sparsematrix",
       "request": "launch",
       "mainClass": "sparsematrix",
