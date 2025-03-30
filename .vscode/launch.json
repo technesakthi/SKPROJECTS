@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "facttrialingzero",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.facttrialingzero",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "exercise",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.hackwithinfy.exercise",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "biotonic",
+      "request": "launch",
+      "mainClass": "biotonic",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
       "name": "herosvillian",
       "request": "launch",
       "mainClass": "JavaPracticePrograms.hackwithinfy.herosvillian",
