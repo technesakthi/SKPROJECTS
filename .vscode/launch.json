@@ -3,6 +3,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "primerange",
+      "request": "launch",
+      "mainClass": "level2.primerange",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "amicablepairs",
+      "request": "launch",
+      "mainClass": "level2.amicablepairs",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "primerange",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.primerange",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "perfectabundantdeficient",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.perfectabundantdeficient",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "triangularnum",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.triangularnum",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "betroatednum",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.betroatednum",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "uglynum",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.uglynum",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "factoriall",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.factoriall",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
       "name": "facttrialingzero",
       "request": "launch",
       "mainClass": "JavaPracticePrograms.level2.facttrialingzero",
