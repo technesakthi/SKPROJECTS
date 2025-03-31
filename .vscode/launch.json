@@ -3,6 +3,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "magicnumber",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.magicnumber",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "leftrotaten",
+      "request": "launch",
+      "mainClass": "level2.leftrotaten",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "leftrotaten",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.leftrotaten",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "frequencydigits",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.frequencydigits",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "HarshadNum",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.HarshadNum",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "keprakernum",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.keprakernum",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "keprakernum",
+      "request": "launch",
+      "mainClass": "level2.keprakernum",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "amicablepairs",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.amicablepairs",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "betroatednum",
+      "request": "launch",
+      "mainClass": "level2.betroatednum",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
       "name": "primerange",
       "request": "launch",
       "mainClass": "level2.primerange",
