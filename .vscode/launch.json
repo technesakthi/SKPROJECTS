@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "nofdaysremain",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.nofdaysremain",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "productevensumodd",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.productevensumodd",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "productevensumodd",
+      "request": "launch",
+      "mainClass": "level2.productevensumodd",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "elapsedtimesec",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.elapsedtimesec",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "elapsedtimesec",
+      "request": "launch",
+      "mainClass": "level2.elapsedtimesec",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
       "name": "magicnumber",
       "request": "launch",
       "mainClass": "JavaPracticePrograms.level2.magicnumber",
