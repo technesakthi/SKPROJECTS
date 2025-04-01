@@ -11,18 +11,20 @@ public class nofdaysremain {
         int yy= Integer.parseInt(arr1[2]);
         if(mm<0) System.out.println("Invalid");
         int epd=0;
-        for(int i=mm+1;i<=12;i++){
+        for(int i=mm;i<=12;i++){
             if(i==1||i==3||i==5||i==7||i==8||i==10||i==12){
                 epd+=31;
             }
             else if(i==4||i==6||i==9||i==11){
                 epd+=30;
             }
-            if((yy % 4 == 0) && (yy% 100 != 0) || (yy% 400 == 0)) {
+            if((yy % 4 == 0) && (yy% 100 != 0) || (yy% 400 == 0)&&i==2) {
                 epd+=29;
 
             }
-            
+            else if(i==2) epd+=28;
+        
+
             
         }
         epd-=dd;

@@ -1,6 +1,6 @@
 package JavaPracticePrograms.level2;
 import java.util.Scanner;
-public class productevensumodd {
+public class numberofcompleteddays {
     public static void main(String[] args) {
         Scanner sk=new Scanner(System.in);
         String time1= sk.nextLine();
@@ -25,7 +25,7 @@ public class productevensumodd {
             else epd+=28;
         }
         epd-=dd;
-        System.out.println(epd);
+        System.out.println("Completed Days: "+epd);
     }
     
 }

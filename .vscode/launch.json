@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "xyaxiscoordinatelies",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.xyaxiscoordinatelies",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "diffbtwdates",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.diffbtwdates",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "yrwekremdays",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.yrwekremdays",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
       "name": "nofdaysremain",
       "request": "launch",
       "mainClass": "JavaPracticePrograms.level2.nofdaysremain",
