@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "leftdigitdivisibility",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.leftdigitdivisibility",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
       "name": "topdownstepcount",
       "request": "launch",
       "mainClass": "JavaPracticePrograms.level2.topdownstepcount",
