@@ -3,6 +3,97 @@
   "configurations": [
     {
       "type": "java",
+      "name": "topdownstepcount",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.topdownstepcount",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "personrectwalk",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.personrectwalk",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "plane",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.plane",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "stepcountxy",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.stepcountxy",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "trianglepattern",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.trianglepattern",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "numstarnumpat",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.numstarnumpat",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "butterflypattern",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.butterflypattern",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "swapdigitpos",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.swapdigitpos",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "productevensumoddiv",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.productevensumoddiv",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "Rightrotaten",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.Rightrotaten",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "Armstrongnum",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.Armstrongnum",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "amicablepairs$AmicableNumbers",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.amicablepairs$AmicableNumbers",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "rightleftpattern",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.rightleftpattern",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
       "name": "xyaxiscoordinatelies",
       "request": "launch",
       "mainClass": "JavaPracticePrograms.level2.xyaxiscoordinatelies",
