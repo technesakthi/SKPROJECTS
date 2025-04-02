@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "inversetrianglepat",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.inversetrianglepat",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "centernumpattern",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.centernumpattern",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "repeatingpattern",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.repeatingpattern",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "dectohex",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.dectohex",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
       "name": "leftdigitdivisibility",
       "request": "launch",
       "mainClass": "JavaPracticePrograms.level2.leftdigitdivisibility",
