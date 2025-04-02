@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "betroatedinrange",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.betroatedinrange",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "shiftnumpat",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.shiftnumpat",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "decrenumpat",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.decrenumpat",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
+      "name": "triangleoppo",
+      "request": "launch",
+      "mainClass": "JavaPracticePrograms.level2.triangleoppo",
+      "projectName": "SKPROJECTS_f7e0de96"
+    },
+    {
+      "type": "java",
       "name": "inversetrianglepat",
       "request": "launch",
       "mainClass": "JavaPracticePrograms.level2.inversetrianglepat",
