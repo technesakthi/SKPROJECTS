@@ -8,7 +8,7 @@ public class insertion {
         for(int i=0;i<sz;i++) arr[i]=sk.nextInt();
         int ele=sk.nextInt();
         int pos=sk.nextInt();
-        if(pos>sz) System.out.print("Error");
+        if(pos>sz) System.out.print("Error invalid input");
         arn[pos]=ele;
         int  c=0;
         for(int i=0;i<sz;i++){
