@@ -3,22 +3,34 @@ import pickle
 import numpy as np
 
 app = Flask(__name__)
-
-model = pickle.load(open("iris_model.pkl", "rb"))
+model = pickle.load(open('iris_model.pkl', 'rb'))  # Ensure this file exists
 
 @app.route('/')
 def home():
-    return render_template("index.html")
+    return render_template('index.html')
 
-@app.route('/predict', methods=["POST"])
+
+@app.route('/predict', methods=['POST'])
 def predict():
     try:
-        data = [float(request.form[f"feature{i}"]) for i in range(1, 5)]
-        prediction = model.predict([np.array(data)])[0]
-        flower_names = ["Setosa", "Versicolor", "Virginica"]
-        return render_template("index.html", prediction_text=f"Predicted Flower: {flower_names[prediction]}")
-    except:
-        return render_template("index.html", prediction_text="Invalid input. Please enter valid numbers.")
+        sl = float(request.form['sepal_length'])
+        sw = float(request.form['sepal_width'])
+        pl = float(request.form['petal_length'])
+        pw = float(request.form['petal_width'])
+
+        features = np.array([[sl, sw, pl, pw]])
+        predicted_class = model.predict(features)[0]
+
+        label_map = {0: "Setosa", 1: "Versicolor", 2: "Virginica"}
+        prediction = label_map[predicted_class]
+        image_filename = f"{prediction}.jpg"
+        return render_template('index.html', result=prediction, image=image_filename)
+
+
+
+    except Exception as e:
+        return f"Error: {e}"
+
 
 if __name__ == '__main__':
     app.run(debug=True)
