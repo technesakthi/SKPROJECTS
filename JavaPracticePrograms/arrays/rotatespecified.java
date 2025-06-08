@@ -17,7 +17,7 @@ public class rotatespecified {
             m++;
         }
         
-        for(int i=0;i<l;i++){
+        for(int i=0;i<sz;i++){
             rot[m]=arr[i];
             m++;
         }

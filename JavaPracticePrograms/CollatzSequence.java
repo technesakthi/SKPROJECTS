@@ -3,7 +3,7 @@ import java.util.Scanner;
     public class CollatzSequence {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
-            int k=
+            int k=0;
             int n = scanner.nextInt();
             while (n != k) {
                 System.out.print(n + ", ");

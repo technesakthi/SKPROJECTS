@@ -20,7 +20,7 @@ public class units {
             }
             
             double totalBil = bill + (0.20 * bill);
-            System.out.println(totalBill);
+            System.out.println(totalBil);
             
             
         }
