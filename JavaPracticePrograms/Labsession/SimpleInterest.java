@@ -19,6 +19,8 @@ public class SimpleInterest {
         float n=sk.nextFloat();
         float r=sk.nextFloat();
         System.out.println(findSI(p,n,r));
+        System.out.println();
         System.out.println(findCI(p,n,r));
+
     }
 }
