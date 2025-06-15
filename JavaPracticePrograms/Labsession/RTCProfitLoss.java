@@ -1,3 +1,5 @@
+package Labsession;
+
 import java.util.*;
 public class RTCProfitLoss {
     static int Profloss(int dis,int pass){
@@ -7,7 +9,7 @@ public class RTCProfitLoss {
         int fuelcost=(dis/mile)*fuelprice;
         int revenue=pass*ticketprice;
         int prof=revenue-fuelcost;
-        if(prof>=0){
+        if(prof<=0){
             return -1;
         }
         return prof;

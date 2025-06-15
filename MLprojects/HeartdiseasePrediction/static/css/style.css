@@ -1,0 +1,47 @@
+/* static/css/style.css */
+
+/* Universal settings */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+/* Cards */
+.card {
+    border-radius: 1rem;
+}
+
+/* Buttons */
+.btn-primary, .btn-success, .btn-danger {
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-danger:hover {
+    transform: scale(1.05);
+}
+
+/* Form Labels */
+.form-label {
+    font-weight: 600;
+}
+
+/* Flash messages */
+.alert {
+    border-radius: 0.5rem;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}

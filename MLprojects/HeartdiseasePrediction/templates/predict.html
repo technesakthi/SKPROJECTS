@@ -1,0 +1,83 @@
+<!-- templates/predict.html -->
+{% extends "base.html" %}
+{% block content %}
+<div class="card p-4 bg-light shadow-lg">
+    <h3 class="text-center mb-4">Heart Disease Risk Prediction</h3>
+
+    <form method="POST">
+        <div class="row g-3">
+            <!-- Row 1 -->
+            <div class="col-md-4">
+                <label class="form-label">Age</label>
+                <input type="number" name="age" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Sex (0 = female, 1 = male)</label>
+                <input type="number" name="sex" class="form-control" min="0" max="1" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Chest Pain Type (0–3)</label>
+                <input type="number" name="cp" class="form-control" min="0" max="3" required>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="col-md-4">
+                <label class="form-label">Resting Blood Pressure</label>
+                <input type="number" name="trestbps" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Cholesterol (mg/dl)</label>
+                <input type="number" name="chol" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Fasting Blood Sugar (>120 = 1)</label>
+                <input type="number" name="fbs" class="form-control" min="0" max="1" required>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="col-md-4">
+                <label class="form-label">Rest ECG (0–2)</label>
+                <input type="number" name="restecg" class="form-control" min="0" max="2" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Max Heart Rate</label>
+                <input type="number" name="thalach" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Exercise Induced Angina (1 = yes)</label>
+                <input type="number" name="exang" class="form-control" min="0" max="1" required>
+            </div>
+
+            <!-- Row 4 -->
+            <div class="col-md-4">
+                <label class="form-label">Oldpeak (ST Depression)</label>
+                <input type="number" step="any" name="oldpeak" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Slope (0–2)</label>
+                <input type="number" name="slope" class="form-control" min="0" max="2" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Number of Vessels (0–3)</label>
+                <input type="number" name="ca" class="form-control" min="0" max="3" required>
+            </div>
+
+            <!-- Row 5 -->
+            <div class="col-md-4">
+                <label class="form-label">Thal (0 = normal, 1 = fixed, 2 = reversible)</label>
+                <input type="number" name="thal" class="form-control" min="0" max="2" required>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center">
+            <button class="btn btn-primary px-5" type="submit">Predict</button>
+        </div>
+    </form>
+
+    {% if prediction %}
+    <div class="alert alert-info mt-4 text-center">
+        <h5>{{ prediction }}</h5>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

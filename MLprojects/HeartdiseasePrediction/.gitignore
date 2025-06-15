@@ -1,0 +1,7 @@
+# .gitignore
+
+__pycache__/
+*.pyc
+model.pkl
+db_config.py
+.env
