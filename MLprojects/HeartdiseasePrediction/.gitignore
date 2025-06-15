@@ -1,7 +1,7 @@
-# .gitignore
+    # .gitignore
 
 __pycache__/
 *.pyc
-model.pkl
+heartml.pkl
 db_config.py
 .env
