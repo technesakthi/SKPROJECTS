@@ -5,9 +5,12 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/JavaPracticePrograms" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
-      <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/venv/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/venv/etc" />
+      <excludeFolder url="file://$MODULE_DIR$/venv/share" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.10 (SKPROJECTS)" jdkType="Python SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
