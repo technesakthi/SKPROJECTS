@@ -1,3 +1,5 @@
+package Labsession;
+
 import java.util.*;
 public class AddRandomno {
     public static void main(String[] args) {
