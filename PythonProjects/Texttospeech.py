@@ -11,7 +11,7 @@ def text_to_speech():
         with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as temp_audio_file:
             tts.save(temp_audio_file.name)
             temp_file_path = temp_audio_file.name
-        pygame.mixer.music.load(temp_file_path)
+        pygame.mixer.music.load(temp_file_path)2222
         pygame.mixer.music.play()
 def stop_audio():
     pygame.mixer.music.stop()

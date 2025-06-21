@@ -3,7 +3,7 @@ package Labsession;
 import java.util.Scanner;
 
 public class ReverseArr {
-    static void Reverse(int arr[],int start,int end){
+    static void Reverse(int[] arr, int start, int end){
         while(start<end){
             int temp=arr[start];
             arr[start]=arr[end];
@@ -16,7 +16,7 @@ public class ReverseArr {
     public static void main(String[] args) {
         Scanner sk=new Scanner(System.in);
         int n=sk.nextInt();
-        int arr[]=new int[n];
+        int[] arr =new int[n];
         for(int i=0;i<n;i++){
             arr[i]=sk.nextInt();
         }

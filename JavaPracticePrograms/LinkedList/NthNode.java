@@ -1,4 +1,4 @@
-package Labsession;
+package LinkedList;
 
 public class NthNode {
     public static class Node {

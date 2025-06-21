@@ -1,4 +1,4 @@
-package Labsession;
+package LinkedList;
 
 public class LinkLis {
     public static class Node {
