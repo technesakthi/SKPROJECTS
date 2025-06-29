@@ -6,9 +6,12 @@ import joblib
 clf = joblib.load("rain_classifier.pkl")
 reg = joblib.load("rain_regressor.pkl")
 scaler = joblib.load("scaler.pkl")
+import os
+from dotenv import load_dotenv
 
-
-API_KEY = "1aa5edb243543bee906f39e31ea5f258"
+load_dotenv()
+API_KEY = os.getenv("OPENWEATHER_API_KEY")
+print("Enter City :\n")
 CITY = input()
 
 

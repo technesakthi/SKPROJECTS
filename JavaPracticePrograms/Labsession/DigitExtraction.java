@@ -1,6 +1,6 @@
 package Labsession;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class DigitExtraction {
     public static void main(String[] args) {
