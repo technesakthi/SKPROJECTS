@@ -1,0 +1,40 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files
+*.pkl
+*.joblib
+*.h5
+
+# Ignore datasets
+*.csv
+*.xlsx
+*.zip
+data/
+dataset/
+WeatherAUS.csv
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+ENV/
+__pycache__/
+*.py[cod]
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and outputs
+*.log
+*.out
+
+# Ignore IDE configs
+.vscode/
+.idea/
+
+# Ignore temporary files
+*.bak
+*.tmp
+*.swp
